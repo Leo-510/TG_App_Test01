@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+jupyter server extension enable voila --sys-prefix || jupyter serverextension enable voila --sys-prefix
